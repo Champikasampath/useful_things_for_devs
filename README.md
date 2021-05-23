@@ -5,3 +5,7 @@ Useful commands and tricks for devs
 Open your command line and run following
 
 php -r "echo php_ini_loaded_file().PHP_EOL;"
+
+## Get git conflicted files
+
+git diff --name-only --diff-filter=U
